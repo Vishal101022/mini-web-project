@@ -1,0 +1,33 @@
+table{
+    margin-left: 2em;
+    font-size: 20px;
+    width: 70%;
+    padding: 2px;
+    border: 4px outset red;
+}
+caption{
+    padding-bottom: 10px;
+    color: strong rgb(107, 102, 102);
+}
+th, td{
+    padding: 10px;
+    
+}
+thead{
+    text-align:center;
+    color: white;
+    background-color: rgba(69, 67, 67, 0.90);
+    
+}
+.b1{
+    text-align: center;
+    background-color: rgba(158, 185, 247, 0.65);
+}
+.b2{
+    text-align: center;
+    background-color: rgb(201, 247, 247, 0.65);
+}
+tfoot{
+    text-align: center;
+    background-color: rgba(246, 147, 244, 0.65);
+}
