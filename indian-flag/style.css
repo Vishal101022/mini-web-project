@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.flag{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    animation: zoom 0.5s linear forwards;
+    animation-delay: 2s;
+}
+@keyframes zoom {
+    from{
+        transform: rotate(0deg) scale(0);
+    }
+    to{
+        transform: rotate(-15deg) scale(1.5);
+    }
+}
+/*  saffron color */
+.flag .saffron{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 33vh;
+    background:#FF9933;
+    transform-origin: left;
+    animation: color_ 1s linear forwards;
+}
+@keyframes color_{
+    from{
+        transform: scaleX(0);
+    }
+    to{
+        transform: scaleX(1);
+    }
+}
+/* green_ color */
+.flag .green{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 33vh;
+    background:green;
+    transform-origin: right;
+    animation: color_ 1s linear forwards;
+    
+}
+/* Ashoka-Chakra alingment */
+.chakra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+/* Ashoka-Chakra animation */
+.chakra img{
+    width: auto;
+    height: 33vh;
+    margin-top: 4px;
+    animation: rotate_ 10s linear infinite;
+    border-radius: 150px;
+    animation-delay: 2s;
+}
+@keyframes rotate_{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
