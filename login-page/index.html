@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+                 <!--included fontawesome.com/icons-->
+     <script src="https://kit.fontawesome.com/20f0338007.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login-page-container">
+        <div class="login-card">
+            <div class="logo">
+                <img src="panda_logo.png" alt="logo">
+            <div class="header">
+                <h1>Welcome back <i class="fa-solid fa-hands-clapping"></i></h1>
+            </div>
+            <form action="" class="login-form" method="post" onsubmit="">
+                <div class="form-items">
+                   <div class="login-control">
+                    <input type="email" id="email" spellcheck="false" aria-label="email or phone" autocomplete="username" tabindex="0" autofocus="autofocus" autocapitalize="off" autocorrect="off" name="username"
+                    placeholder="Email/Phone">
+                   </div>
+
+                   <div class="login-control">
+                    <input type="password" name="pass" id="password" autocomplete="current-password" tabindex="0" aria-hidden="true" spellcheck="false"
+                    placeholder="Password">
+                   </div>
+                   
+                   <div class="login-control">
+                    <i class="fa-solid fa-unlock"></i>
+                    <button type="submit" tabindex="0" form="login-form" id="login-button" aria-label="submit button">Log in</button>
+                   </div>
+                   <div class="horizontal-rule"></div>
+                   <div class="login-control footer">
+                    <a href id="forgot-password-link" tabindex="0">I forgot my password</a>
+                    <button type="button" id="create-new-account" aria-label="create new account">Create new account</button>
+                   </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
